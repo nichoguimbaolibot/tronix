@@ -10,7 +10,7 @@ $scope = $_POST['scope'];
 if (!empty($pname) || !empty($price) || !empty($quantity) || !empty($additionalInfo) || !empty($ptype) || !empty($brand) || !empty($model) || !empty($scope)) {
     $host = "localhost";
     $dbUsername = "root";
-    $dbPassword = "";
+    $dbPassword = "11111";
     $dbname = "tronixdb";
     //create connection
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
